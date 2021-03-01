@@ -2,22 +2,36 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pages.Pagina1"
-             Title="Página 1">
+             Title="Storyline">
+    
     <TabbedPage.Children>
-        <ContentPage Title="Pestaña 1">
+        <ContentPage Title="¿Qué ocurrió?">
             <StackLayout>
-                <Label Text="Pagina 1"
+                <Label Text="Una gran explosión estalló en la central 
+                       nuclear de Chernobyl en el norte de Ucrania. 
+                       Esta serie sigue las historias de hombres y mujeres, 
+                       que intentaron contener el desastre, así como de quienes 
+                       dieron su vida por evitar uno posterior y peor."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+
                 <Button Text="Atrás"
                     Clicked="Button_Clicked"/>
             </StackLayout>
-        </ContentPage>
 
-        <ContentPage Title="Pesaña 2">
+        </ContentPage>
+        <ContentPage Title="¿Cómo ocurrió?">
+            <StackLayout>
+                <Label Text="Chernobyl fue un desastre que involucró 
+                       fallas "/>
+            </StackLayout>
+        </ContentPage>
+        
+        <ContentPage Title="¿Cuando ocurrió?">
             <StackLayout>
                 <Label Text="Hola a todos"/>
             </StackLayout>
         </ContentPage>
     </TabbedPage.Children>
+    
 </TabbedPage>

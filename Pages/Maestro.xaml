@@ -6,11 +6,11 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="Ir a pagina 1"
-                    Clicked="IrPagina1"/>
+            <Button Text="Storyline"
+                    Clicked="IrStoryline"/>
             
-            <Button Text="Ir a pagina 2"
-                    Clicked="IrPagina2"/>
+            <Button Text="Fotos"
+                    Clicked="IrFotos"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

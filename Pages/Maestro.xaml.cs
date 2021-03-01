@@ -17,13 +17,13 @@ namespace Pages
             InitializeComponent();
         }
 
-        private void IrPagina1(object sender, EventArgs e)
+        private void IrStoryline(object sender, EventArgs e)
         {
             App.MasterD.IsPresented = false;
             App.MasterD.Detail.Navigation.PushAsync(new Pagina1());
         }
 
-        private void IrPagina2(object sender, EventArgs e)
+        private void IrFotos(object sender, EventArgs e)
         {
             App.MasterD.IsPresented = false;
             App.MasterD.Detail.Navigation.PushAsync(new Pagina2());

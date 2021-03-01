@@ -4,4 +4,5 @@
              x:Class="Pages.Detalle"
              Title="Home">
 
+    <Image Source="https://i.pinimg.com/564x/3a/dd/27/3add276d83f6deb97d77aa806594a6ae.jpg"/>
 </ContentPage>
